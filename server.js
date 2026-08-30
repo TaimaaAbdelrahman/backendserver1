@@ -9,7 +9,7 @@ app.use(express.json())
 let books = [
         id: "1",
         title: "Book 1",
-        author: "Mohamed",
+        author: "Mohamad",
         pdate: "2003-12-22"
     }]
 
