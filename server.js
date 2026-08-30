@@ -6,7 +6,12 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-let books = []
+let books = [
+        id: "1",
+        title: "Book 1",
+        author: "Mohamed",
+        pdate: "2003-12-22"
+    }]
 
 //create books
 app.post("/books", (req, res) => {
